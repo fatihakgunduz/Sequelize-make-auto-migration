@@ -13,8 +13,9 @@ Create your models as in the example models folder
 
 Adjust your config file
 
-Edit code in index.js file : const C = require(path.join(__dirname, file));
-   			     const model = new C(sequelize, Sequelize.DataTypes);
+Edit code in index.js file : 
+const C = require(path.join(__dirname, file));
+const model = new C(sequelize, Sequelize.DataTypes);
 
 To make new migration run 'sequelize-mig migration:make -n'
 
