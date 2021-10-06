@@ -1,0 +1,98 @@
+{
+    "tables": {
+        "example": {
+            "tableName": "example",
+            "schema": {
+                "id": {
+                    "autoIncrement": true,
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "name": {
+                    "allowNull": false,
+                    "field": "name",
+                    "seqType": "Sequelize.STRING"
+                },
+                "username": {
+                    "allowNull": false,
+                    "field": "username",
+                    "seqType": "Sequelize.STRING"
+                },
+                "email": {
+                    "allowNull": false,
+                    "field": "email",
+                    "seqType": "Sequelize.STRING"
+                },
+                "password_hash": {
+                    "allowNull": false,
+                    "field": "password_hash",
+                    "seqType": "Sequelize.STRING"
+                },
+                "retry_count": {
+                    "field": "retry_count",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "is_active": {
+                    "field": "is_active",
+                    "seqType": "Sequelize.BOOLEAN"
+                }
+            },
+            "indexes": []
+        },
+        "example1": {
+            "tableName": "example1",
+            "schema": {
+                "id": {
+                    "autoIncrement": true,
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "status": {
+                    "field": "status",
+                    "seqType": "Sequelize.BOOLEAN"
+                }
+            },
+            "indexes": []
+        },
+        "example2": {
+            "tableName": "example2",
+            "schema": {
+                "id": {
+                    "autoIncrement": true,
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "name": {
+                    "allowNull": false,
+                    "field": "name",
+                    "seqType": "Sequelize.STRING"
+                },
+                "is_active": {
+                    "field": "is_active",
+                    "seqType": "Sequelize.BOOLEAN"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "field": "created_at",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "field": "updated_at",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "path": "C:\\Users\\fatihakgündüz\\Desktop\\sequelize-auto-mig\\Sequelize-make-auto-migration\\migrations\\_current.json",
+    "backupPath": "C:\\Users\\fatihakgündüz\\Desktop\\sequelize-auto-mig\\Sequelize-make-auto-migration\\migrations\\_current_bak.json",
+    "exists": false,
+    "revision": 1
+}
